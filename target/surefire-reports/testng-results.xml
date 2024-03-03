@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2023-07-20T12:39:53 IST" finished-at="2023-07-20T12:39:53 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="18991" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:52 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="MyRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5579bb86]" name="scenario" class="testRunners.MyRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ChromeTest" duration-ms="18991" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:52 IST">
+      <class name="testRunners.Runner1">
+        <test-method status="PASS" signature="setUpCucumber(java.lang.String)[pri:0, instance:testRunners.Runner1@5579bb86]" name="setUpCucumber" is-config="true" duration-ms="4003" started-at="2023-07-20T12:39:33 IST" finished-at="2023-07-20T12:39:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.Runner1@5579bb86]" name="scenario" duration-ms="14098" started-at="2023-07-20T12:39:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-20T12:39:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.Runner1@5579bb86]" name="tearDownClass" is-config="true" duration-ms="851" started-at="2023-07-20T12:39:52 IST" finished-at="2023-07-20T12:39:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="TestCompletion()[pri:0, instance:testRunners.Runner1@5579bb86]" name="TestCompletion" is-config="true" duration-ms="0" started-at="2023-07-20T12:39:52 IST" finished-at="2023-07-20T12:39:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCompletion -->
+      </class> <!-- testRunners.Runner1 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
